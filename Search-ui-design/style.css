@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #dbd5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.bg-design{
+    width: 421px;
+    height: 613px;
+    border-radius: 31px;
+    background-color: #efebfd;
+    position: absolute;
+}
+.search-ui-design{
+    width: 640px;
+    height: 464px;
+    padding: 72px;
+    border-radius: 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+}
+.search-area{
+    position: relative;
+    display: flex;
+    margin-bottom: 32px;
+}
+.input-search-area{
+    margin-right: 12px;
+}
+.input-search-area  > .search-icon{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.input-search-area > .search-input{
+    width: 348px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 40px;
+    border: 1px solid #dbd5ec;
+}
+.search-input::placeholder{
+    color: rgba(40, 26, 81, .54);
+}
+.search-area > .btn-area{
+    position: relative;
+}
+.btn-area > .btn-input{
+    width: 136px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px;
+    border: none;
+    background-color: #281a51;
+    color: #fff;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.btn-area > .map-icon{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #fff;
+}
+.middle-area{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.middle-area > div{
+    width: 112px;
+    height: 108px;
+    box-sizing: border-box;
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: #281a51;
+}
+.furniture{
+    background-color: #ffecec;
+}
+.property{
+    background-color: #f7ecff;
+}
+.job{
+    background-color: #ecf0ff;
+}
+.travel{
+    background-color: #d7f9f3;
+}
+.boat{
+    background-color: #e2ffd5;
+}
+.mc{
+    background-color: #fff;
+    border: 1px solid #dbd5ec;
+    box-shadow: 0 14px 16px rgba(41 ,11 ,128, .1);
+}
+.economy{
+    background-color: #fff3c9;
+}
+.holiday{
+    background-color: #ffd9c9;
+}
+.middle-area > div:hover{
+    border: 1px solid #dbd5ec;
+    box-shadow: 0 14px 16px rgba(41 ,11 ,128, .1);
+}
