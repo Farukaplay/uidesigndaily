@@ -1,0 +1,117 @@
+body{
+    background-color: #f1f4ff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.price-card{
+    width: 476px;
+    height: 635px;
+    border-radius: 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #A6add2;
+    color: #1b255a;
+}
+.icon > p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.purchase{
+    margin-top: 16px;
+    color: #1b255a;
+}
+.purchase > .money-type{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.money-type > span{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.month{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.payment-installment{
+    margin-top: 69px;
+}
+label > input{
+    display: none;
+}
+label > span{
+    height: 56px;
+    width: 66px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    border: 2px solid #d2d9f3;
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #1b255a;
+    cursor: pointer;
+}
+label > input:checked + span{
+    background-color: #1b255a;
+    color: #fff;
+}
+.payment-installment > p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1b255a;
+}
+button{
+    height: 75px;
+    width: 337px;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 40px;
+    background-color: #1b255a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms background-color ease-in;
+    box-shadow: 0 14px 54px rgba(27, 37, 90, .7);
+}
+button:hover{
+    background-color: #303963;
+}
